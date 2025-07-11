@@ -12,7 +12,7 @@ import {
     Platform,
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import { useTimer } from '../context/TimerContext';
 import { AddTimerFormData } from '../types';
@@ -118,7 +118,7 @@ const AddTimerScreen: React.FC = () => {
                     style={[styles.durationButton, { backgroundColor: theme.colors.primary }]}
                     onPress={() => decrementDuration(unit)}
                 >
-                    <Icon name="minus" size={16} color={theme.colors.background} />
+                    <Icon name="minus" size={12} color={theme.colors.background} />
                 </TouchableOpacity>
                 <Text style={[styles.durationValue, { color: theme.colors.text }]}>
                     {value.toString().padStart(2, '0')}
@@ -127,7 +127,7 @@ const AddTimerScreen: React.FC = () => {
                     style={[styles.durationButton, { backgroundColor: theme.colors.primary }]}
                     onPress={() => incrementDuration(unit)}
                 >
-                    <Icon name="plus" size={16} color={theme.colors.background} />
+                    <Icon name="plus" size={12} color={theme.colors.background} />
                 </TouchableOpacity>
             </View>
         </View>
@@ -306,11 +306,11 @@ const createStyles = (theme: any) =>
         durationControls: {
             flexDirection: 'row',
             alignItems: 'center',
-            gap: theme.spacing.sm,
+            gap: theme.spacing.xs,
         },
         durationButton: {
-            width: 32,
-            height: 32,
+            width: 24,
+            height: 24,
             borderRadius: 16,
             justifyContent: 'center',
             alignItems: 'center',
