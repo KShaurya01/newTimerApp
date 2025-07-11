@@ -1,8 +1,10 @@
 # React Native Timer App
 
-A comprehensive timer management application built with React Native, featuring category-based organization, progress visualization, background notifications, and theme customization.
+A comprehensive and customizable timer management application built with React Native. Features include category-based organization, progress visualization, local notifications, and theme support.
 
-## Features
+---
+
+## 🚀 Features
 
 ### Core Features ✅
 
@@ -265,15 +267,3 @@ cd android && ./gradlew assembleRelease
 
 After building, the APK can be found at:
 `android/app/build/outputs/apk/release/app-release.apk`
-
-## Support & Contributions
-
-For issues, feature requests, or contributions, please refer to the project repository.
-
-## License
-
-This project is created as part of a development assessment and follows standard mobile app development practices.
-
----
-
-**Built with ❤️ using React Native, TypeScript, and modern mobile development practices.**
