@@ -51,7 +51,7 @@ A comprehensive and customizable timer management application built with React N
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/KShaurya01/TimerApp.git
+   git clone https://github.com/KShaurya01/newTimerApp.git
    cd TimerApp
    ```
 
